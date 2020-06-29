@@ -1,1 +1,22 @@
-h2{text-align:left;font-size:25px}input{display:block;height:50px;width:200px;border:2px solid grey;font-size:22px}
+h2 {
+  text-align: left;
+  font-size: 25px;
+}
+
+input {
+  display: block;
+  height: 50px;
+  width: 200px;
+  border: 2px solid grey;
+  font-size: 22px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+/*# sourceMappingURL=style.min.css.map */
